@@ -6,7 +6,7 @@ def calculate_tax(item, price, rate):
 
 user_item = input("Enter the name of the item: ")
 user_price = float(input("Enter the cost of the item in dollars: "))
-user_rate = float(input("Enter the tax rate (e.g., enter 6.875 for Minnesota): "))
+user_rate = float(input("Enter the tax rate (-- enter 6.875 for Minnesota): "))
 
 calculate_tax(user_item, user_price, user_rate)
 
