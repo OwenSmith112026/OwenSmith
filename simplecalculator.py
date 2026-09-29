@@ -17,7 +17,6 @@ def divide(x, y):
 x_val = float(input("Enter x value: "))
 y_val = float(input("Enter y value: "))
 
-# 2. Run and print the operations using the required examples format
 print(f"add({x_val}, {y_val}) > {add(x_val, y_val)}")
 print(f"subtract({x_val}, {y_val}) > {subtract(x_val, y_val)}")
 print(f"multiply({x_val}, {y_val}) > {multiply(x_val, y_val)}")
