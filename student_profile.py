@@ -1,0 +1,42 @@
+# Student Profile
+
+name = input("What is your name? ")
+age = input("How old are you? ")
+hometown = input("What is your hometown? ")
+favorite_food = input("What is your favorite food? ")
+favorite_hobby = input("What is your favorite hobby? ")
+
+school_name = input("What is your school name? ")
+grade_level = input("What grade level are you in? ")
+favorite_subject = input("What is your favorite subject? ")
+study_hours = input("How many hours do you study per week? ")
+graduation_year = input("What is your graduation year? ")
+
+dream_job = input("What is your dream job? ")
+skill_to_learn = input("What skill do you want to learn? ")
+place_to_visit = input("What place do you want to visit? ")
+personal_goal = input("What is your personal goal? ")
+school_goal = input("What is your school goal? ")
+
+print("\nStudent Profile")
+print("=" * 20)
+print("\nPersonal Information")
+print(f"Name: {name}")
+print(f"Age: {age}")
+print(f"Hometown: {hometown}")
+print(f"Favorite Food: {favorite_food}")
+print(f"Favorite Hobby: {favorite_hobby}")
+
+print("\nSchool Information")
+print(f"School Name: {school_name}")
+print(f"Grade Level: {grade_level}")
+print(f"Favorite Subject: {favorite_subject}")
+print(f"Study Hours per Week: {study_hours}")
+print(f"Graduation Year: {graduation_year}")
+
+print("\nFuture Goals")
+print(f"Dream Job: {dream_job}")
+print(f"Skill to Learn: {skill_to_learn}")
+print(f"Place to Visit: {place_to_visit}")
+print(f"Personal Goal: {personal_goal}")
+print(f"School Goal: {school_goal}")

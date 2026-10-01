@@ -1,0 +1,42 @@
+# Travel Plan
+
+traveler_name = input("What is your name? ")
+destination = input("Where are you traveling to? ")
+departure_month = input("What month are you leaving? ")
+departure_day = int(input("What day are you leaving? "))
+trip_length_days = int(input("How many days is the trip? "))
+
+transportation_type = input("What type of transportation will you use? ")
+ticket_price = float(input("What is the ticket price? "))
+hotel_name = input("What is the hotel name? ")
+nightly_room_price = float(input("What is the nightly room price? "))
+number_of_rooms = int(input("How many rooms do you need? "))
+
+activity_1 = input("What is your first planned activity? ")
+activity_2 = input("What is your second planned activity? ")
+activity_3 = input("What is your third planned activity? ")
+spending_budget = float(input("What is your spending budget? "))
+souvenir_budget = float(input("What is your souvenir budget? "))
+
+print("\nTravel Plan")
+print("=" * 20)
+print("\nTrip Details")
+print(f"Traveler Name: {traveler_name}")
+print(f"Destination: {destination}")
+print(f"Departure Month: {departure_month}")
+print(f"Departure Day: {departure_day}")
+print(f"Trip Length: {trip_length_days} days")
+
+print("\nTransportation and Lodging")
+print(f"Transportation Type: {transportation_type}")
+print(f"Ticket Price: ${ticket_price:.2f}")
+print(f"Hotel Name: {hotel_name}")
+print(f"Nightly Room Price: ${nightly_room_price:.2f}")
+print(f"Number of Rooms: {number_of_rooms}")
+
+print("\nActivities and Budget")
+print(f"Activity 1: {activity_1}")
+print(f"Activity 2: {activity_2}")
+print(f"Activity 3: {activity_3}")
+print(f"Spending Budget: ${spending_budget:.2f}")
+print(f"Souvenir Budget: ${souvenir_budget:.2f}")
