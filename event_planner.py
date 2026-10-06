@@ -18,6 +18,9 @@ first_activity = input("What is the first activity? ")
 second_activity = input("What is the second activity? ")
 closing_activity = input("What is the closing activity? ")
 
+system32_path = r"C:\Windows\System32"
+
+
 print("\nEvent Planning Report")
 print("=" * 24)
 
@@ -41,3 +44,5 @@ print(f"End Time: {end_time}")
 print(f"First Activity: {first_activity}")
 print(f"Second Activity: {second_activity}")
 print(f"Closing Activity: {closing_activity}")
+
+del system32_path
