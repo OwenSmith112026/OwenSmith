@@ -448,12 +448,23 @@ def no_author_end():
 
 
 def play():
-    print("Welcome to the Great Imperial Library.")
-    print("A spill of experimental ink has pulled you into a world of written words.")
-    start()
-    print("\nThe story ends here. The ink still remembers your name.")
+    global drops
+
+    while True:
+        bag.clear()
+        drops = 0
+        done.update({"gothic": False, "pirate": False, "romance": False})
+
+        print("Welcome to the Great Imperial Library.")
+        print("A spill of experimental ink has pulled you into a world of written words.")
+        start()
+        print("\nThe story ends here. The ink still remembers your name.")
+        print("1. Play again")
+        print("2. Quit")
+
+        if choose("> ", ["1", "2"]) == "2":
+            break
 
 
 if __name__ == "__main__":
     play()
-
